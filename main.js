@@ -3,7 +3,7 @@
 
 
 
-let myText = "   M     Kumar Thapa";
+let myText = "   M     Kumari Thapa";
 let first_name = document.querySelector('.first_name');
 
 let mArray = myText.split("");
