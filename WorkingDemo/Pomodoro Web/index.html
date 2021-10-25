@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomo Doro Web</title>
+</head>
+
+<body onload="onload()">
+
+
+    <header>
+        <div class="menu">
+            <div class="logoName">
+                <h2>Pomdoro Timer <h2>
+            </div>
+
+            <div class="sideMenu">
+                <ul class="ulList">
+                    <li class="customiseLi" disabled>Customise</li>
+                    <li class="restart_side_menu">Restart Session</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="tab_section_notes">
+
+        <div class="tab_section">
+            <ul class="tab_wrap_ul">
+                <li>
+                    <input type="radio" id="tab_1" name="tab" checked onclick="tabClicked()">
+                    <label for="tab_1">Pomodoro</label>
+
+                    <div class="tab_content tab_content_one">
+                        <h2></h2>
+                        <div class="section_one">
+                            <div class="timer">
+                                <div class="countdown">
+                                    <div class="minutes">
+                                    </div>
+                                    <div class="colon">
+                                        <pre>:</pre>
+                                    </div>
+                                    <div class="seconds">
+                                    </div>
+                                </div>
+
+                                <div class="select_levels">
+                                    <p class="">Level <br></p>
+                                    <p class="text_circle_levels">Baby Steps</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- levels -->
+                        <div class="levels levels_one">
+                            <div class="show_levels ">
+                                <h3 class="headingLevel">Customise Focus Levels</h3>
+                                <ul class="time_level_lists">
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans1" class="answer" value="10"
+                                            style="height:25px; width:25px; vertical-align: middle;"
+                                            onclick="onclickedinput()" >
+                                        <label for="ans1" id="option1">Baby Step</label>
+                                        <h6 class="customise_minutes">10 min</h6>
+                                    </li>
+
+                                    <li class="level_child_li_two">
+                                        <input type="radio" name="asnwer" id="ans2" class="answer" value="25"
+                                            style="height:25px; width:25px;  vertical-align: middle;"
+                                            onclick="onclickedinput()">
+                                        <label for="ans2" id="option2">Popular </label>
+                                        <h6 class="customise_minutes">25 min</h6>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans3" class="answer" value="40"
+                                            style="height:25px; width:25px;  vertical-align:middle;"
+                                            onclick="onclickedinput()">
+                                        <label for="ans3" id="option3">Medium</label>
+                                        <h6 class="customise_minutes">40 min</h6>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans4" class="answer" value="60"
+                                            style="height:25px; width:25px;  vertical-align: middle;"
+                                            onclick="onclickedinput()">
+                                        <label for="ans4" id="option4">Extended</label>
+                                        <h6 class="customise_minutes">60 min</h6>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of level -->
+                        <!-- end of section one -->
+                    </div>
+                </li>
+
+                <!-- tab 2 -->
+                <li>
+                    <input type="radio" id="tab_2" name="tab"  onclick="tabClicked()">
+                    <label for="tab_2">Rest</label>
+                    <div class="tab_content tab_content_one">
+                        <h2></h2>
+                        <div class="section_one">
+                            <div class="timer">
+                                <div class="countdown">
+                                    <div class="minutes minutes_break">
+                                    </div>
+                                    <div class="colon">
+                                        <pre>:</pre>
+                                    </div>
+                                    <div class="seconds seconds_break">
+                                    </div>
+                                </div>
+
+                                <div class="select_levels select_levels_two">
+                                    <p class="">Level <br></p>
+                                    <p class="text_circle_levels text_circle_levels_two">Baby Steps</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- levels -->
+                        <div class="levels levels_two">
+                            <div class="show_levels">
+                                <h3 class="headingLevel">Customise Focus Levels</h3>
+                                <ul class="time_level_lists">
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans5" class="answer answers_two" value="5"
+                                            style="height:25px; width:25px; vertical-align: middle;"
+                                            onclick="onclickedinputTwo()">
+                                        <label for="ans5" id="option1">Baby Step</label>
+                                        <h6 class="customise_minutes">5 min</h6>
+                                    </li>
+
+                                    <li class="level_child_li_two">
+                                        <input type="radio" name="asnwer" id="ans6" class="answer answers_two" value="10"
+                                            style="height:25px; width:25px;  vertical-align: middle;"checked
+                                            onclick="onclickedinputTwo()">
+                                        <label for="ans6" id="option2">Popular </label>
+                                        <h6 class="customise_minutes">10 min</h6>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans7" class="answer answers_two" value="15"
+                                            style="height:25px; width:25px;  vertical-align:middle;"
+                                            onclick="onclickedinputTwo()">
+                                        <label for="ans7" id="option3">Medium</label>
+                                        <h6 class="customise_minutes">15 min</h6>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" name="asnwer" id="ans8" class="answer answers_two" value="20"
+                                            style="height:25px; width:25px;  vertical-align: middle;"
+                                            onclick="onclickedinputTwo()">
+                                        <label for="ans8" id="option4">Extended</label>
+                                        <h6 class="customise_minutes">20 min</h6>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- end of level -->
+                        <!-- end of section twp -->
+                    </div>
+                </li>
+                <!-- tab three -->
+                <!-- <li>
+                    <input type="radio" id="tab_3" name="tab">
+                    <label for="tab_3">Long Rest</label>
+                    <div class="tab_content">
+                        <h2>Tab 3</h2>
+                        <p>
+                            content to tab 33
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, delectus!
+                        </p>
+                    </div>
+                </li> -->
+            </ul>
+
+        </div>
+
+        <div class="task_main_div">
+                <div class="task">
+                    
+                    <div class="task_counter_menu">
+                        <div class="taskCount">Tasks <span></span> </div>
+                        <div class="delete_all_btn"> <img src="bin.png" alt=""></div>
+                    </div>
+
+                    <div class="buttons_add_another_task"  onclick="writeATask()">
+                        <div class="buttons_first">
+                            <button class="add_task_first_btn"><span class="plus_sign">+</span> Add another task</button>
+                        </div>
+                    </div>
+
+                    <div class="input_text_div">
+                        <div class="input_wrap">
+                            <input type="text" value="" class="input_text" id="myInput" placeholder="Enter a text">
+                            <input type="hidden" id="saveIndex">
+                            <button class="save_text task_button">Save</button>
+                            <button class="save_edit_text task_button" style="display: none;">saveEdit</button>
+                            <button class="task_button cancel_button_text">Cancel</button>
+                        </div>
+                       
+                    </div>
+ 
+                    <ul id="myUL" class="myUL">
+                    
+                      
+                      </ul> 
+                  
+                </div>
+        </div>
+    </div>
+    <!-- end of tab section -->
+
+
+
+    <div class="session_completed_msag">
+        <h3 id="Done"></h3>
+    </div>
+
+    <div class="buttons">
+        <!-- <button onclick="start()" class="start_button">start</button> -->
+        <button class="start_button" value="stop">Start</button>
+    </div>
+
+
+
+
+    <!-- <script src="main.js"></script> -->
+    <!-- <script src="maintwo.js"></script> -->
+    <script src="mainthree.js"></script>
+</body>
+
+</html>

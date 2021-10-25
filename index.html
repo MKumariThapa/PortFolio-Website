@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main_wrapper">
+
+
+        <div class="header">
+
+            <div class="first_name">
+            </div>
+
+            <div class="navigation" onclick="menu_clicked()">
+                <!-- navigation -->
+                <!-- <div class="menu" onclick="menu_clicked()">
+                    menu -->
+
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+                <!-- </div> -->
+
+
+
+            </div>
+        </div>
+
+
+        <div class="scrollpath">
+
+        </div>
+        <!-- start of side nav -->
+        <div class="sidenav">
+
+            <ul class="nav" id="nav">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="contact_menu" onclick="contactVisibility()">Contact</a></li>
+                <li><a href="#about_me_section_id" onclick="goToAboutMe()">About Me</a></li>
+                <li><a href="#my_recent_work_section_id" onclick="goToWorkExp()">Work Experience</a></li>
+            </ul>
+        </div>
+        <!-- end of sidenav -->
+
+        <!-- start of contact me -->
+        <div class="container  contact_me_hidden" id="container">
+
+            <div class="contact hidden">
+
+                <div class="social_contact">
+
+                    <h2 class="social_contact_h2">What i do <br> recent work <br> blogs contact...</h2>
+
+                    <div class="social_icons_contact">
+                        <ul class="ul_icons_social  sci_contact contact_social   ">
+                            <li><a href="" style="--i:1;"><img src="images/facebook.png" alt=""></a></li>
+                            <li><a href="" style="--i:1.2;"><img src="images/instagram.png" alt=""></a></li>
+                            <li><a href="" style="--i:1.3;"><img src="images/twitter.png" alt=""></a></li>
+                            <li><a href="" style="--i:1.4;"><img src="images/linkedin (1).png" alt="" class="link"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="message_contact">
+
+                    <div class="textandClose">
+                        <h2 class="contact_me">Contact Me</h2>
+                        <h1 class="close_btn" onclick=" contactHidden()">&times;</h1>
+                    </div>
+
+                    <div class="form">
+                        <input class="input border" type="" placeholder="User Name">
+                        <input class="input border" type="email" placeholder="Email" name="" id="">
+                        <input class="input border" type="phone" placeholder="Phone" name="">
+                        <textarea placeholder="Enter Your Message" class="border"></textarea>
+                        <button class="send_contact_btn border"> Submit</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!-- end of contact me -->
+
+
+
+        <!-- work experience start -->
+
+        <!-- <div class="workExperience">
+
+            <div class="work_experience_countdown">
+                Helllo m 
+            </div>
+        </div> -->
+
+
+        <!-- end of work experience -->
+
+        <div class="section_one">
+            <div class="text">
+                <h1 class="Hello_text"> Hello, World !!! </h1>
+                <p class="p_text">
+                    I am M Kumar Thapa. <br>
+                    <span class="second_p_text"> A Front End Developer in Nepal...</span>
+
+                </p>
+               
+                <a href="cv/cvm.pdf"> <button class="download_cv_btn">Download CV</button></a>
+            </div>
+
+
+            <div class="social_icons">
+
+                <ul class="ul_icons sci ">
+                    <li><a href="" style="--i:1.2;"><img src="images/facebook.png" alt=""></a></li>
+                    <li><a href="" style="--i:1.4;"><img src="images/instagram.png" alt=""></a></li>
+                    <li><a href="" style="--i:1.6;"><img src="images/twitter.png" alt=""></a></li>
+                    <li><a href="" style="--i:1.8;"><img src="images/linkedin (1).png" alt="" class="link"></a></li>
+
+
+                </ul>
+            </div>
+        </div>
+        <!-- end of section one -->
+
+
+        <!-- about me -->
+        <section class="about_me_section" id="about_me_section_id">
+            <h1 class="heading more_about_me_heading">More About Me...</h1>
+
+
+            <div class="about_me_main">
+
+                <div class="more_about_me">
+
+                    <h3 class="hello_more_about_me  h3_heading">Hello!</h3>
+                    <div class="para">
+                        <p class="about_me_para">My Name is Yam Kumari Thapa and I'm a passionate Frontend Web <br>
+                            Developer using
+                            web technologies to build amazing products and <br> focusing on solving problems for
+                            different
+                            niches
+                            and differen <br> industries using the power of technology.<br>
+
+                            <br>
+                            I will love to hear from you. Whether's its a project, job <br> opportunity, or just a chat.
+                            Feel free to contact me. <br>
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="about_me_skills">
+                    <h3 class="skill_heading h3_heading">Skills</h3>
+                    <div class="buttons_div">
+                        <button class="buttons">HTML</button>
+                        <button class="buttons">CSS</button>
+                        <button class="buttons">BOOTSTRAP</button>
+                        <button class="buttons">JAVASCRIPT</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- end of about me -->
+
+        <!-- my recent-works -->
+        <section class="my_recent_work_section" id="my_recent_work_section_id">
+
+            <h1 class="heading my_recent_work_heading">My Recent Works...</h1>
+
+            <div class="works">
+
+                <div class="work_one">
+                    <a href="WorkingDemo/firstChallenge/first.html"> <img src="demo/finalistOne.jpg" alt="" class="final_one_img "></a>
+                   
+                    <div class="first_challenge_text">First Challenge</div>
+
+                </div>
+
+                <div class="work_two">
+                   
+                    <a href="WorkingDemo/Pomodoro Web/index.html"><img src="demo/pomotwo.jpg" alt="" class="final_one_img margin_img_work"></a>
+                    <div class="pomdoro_text">Pomodoro</div>
+                </div>
+
+
+
+                <div class="work_three">
+                    <a href="WorkingDemo/ClipBoardLandingPage/index.html"><img src="demo/thirdtry.jpg" alt="" class="final_one_img margin_img_work"></a>
+                    
+                    <div class="landing_text">Landing Page</div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- end of my recent works -->
+
+
+        <!-- Contact  -->
+
+        <h1 class="heading my_recent_work_heading contact_web_heading">Let's Collaborate...</h1>
+        <div class="contact_web" id="container">
+
+            <div class=" contact_web_divisior_div">
+
+                <div class=" social_contact_web">
+                    <div class="social_contact_web_meeme">
+                        <p class="social_contact_web_p_text">
+                            If you are starting a business or stuck<br>
+                            in the middle and looking for a creative <br> Digital Marketer to develop your <br>
+                            business or want to increase your ROI, <br> you are at the right place at the right <br>
+                            time. <br>
+                            <br>
+                            <br>
+                            <span> Fill up the form with details and I will rescue you. 😊</span>
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="email_phone">
+
+                        <div class="img_email_phone">
+                            <img src="images/smartphone.png" alt="">
+                            <img src="images/email.png" alt="">
+                        </div>
+
+                        <div class="email_phone_text">
+                            <p class="phone_no_email">+977 &nbsp; 9804180764 <br> </p>
+                            <p class="phone_no_email"> yamkumari.thapa03@gmail.com</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="message_contact message_contact_web">
+
+                    <div class="textandClose">
+                        <h2 class="contact_me">Contact Me</h2>
+                        <h1 class="close_btn  close_btn_web">&times;</h1>
+                    </div>
+
+                    <div class="form">
+                        <input class="input border" type="" placeholder="User Name">
+                        <input class="input border" type="email" placeholder="Email" name="" id="">
+                        <input class="input border" type="phone" placeholder="Phone" name="">
+                        <textarea placeholder="Enter Your Message" class="border"></textarea>
+                        <button class="send_contact_btn border"> Submit</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- end of contact -->
+
+        <div class="back_to_top">
+                <button class="scroll_top_btn"><img src="images/arrow-up.png" alt=""></button>
+            <!-- <div class="text_bck_to_top">  <p>back to top</p></div> -->
+          
+        </div>
+
+        <footer class="footer">
+            Made With
+            <img src="  images/heart.png" alt="">
+        </footer>
+
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

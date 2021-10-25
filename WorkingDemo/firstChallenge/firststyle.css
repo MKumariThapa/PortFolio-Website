@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    justify-content: flex-start;
+    margin:30px;
+}
+.card
+{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+
+.card,.card1,.card2
+{
+    /* background-color: pink; */
+    width: 220px;
+    height: 400px;
+    /* margin-top: 30px; */
+    position: relative;
+   
+    /* margin: 30px; */
+    
+}
+
+
+.circle
+{
+    /* background-color: gray; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+        background-color: hsl(31, 94%, 44%);
+
+}
+.icons
+{
+    /* border-radius: 50px; */
+    display: flex;
+    /* background-color: red; */
+    margin-left: 25px;
+    margin-top: 40px;
+    position: absolute;
+}
+.car
+{
+    margin-left: 50px;
+    /* background-color: purple; */
+    margin-left: -12px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+.heading
+{
+    /* margin-top: 20px; */
+    margin: 120px 0px 10px 25px;
+    color: white;
+    position: absolute;
+    font-family:  'Big Shoulders Display';
+    line-height: 4px;
+    /* letter-spacing: 1px; */
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+p
+{
+    position: absolute;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 160px 20px 0px 25px;
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.button
+{
+    position: absolute;
+    margin:330px 0px 0px 25px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    border:none;
+}
+.buttonOne
+{
+    color: hsl(31, 77%, 52%);
+}
+
+
+
+.card1
+{
+    background-color:  hsl(184, 100%, 22%) ;
+   
+}
+
+.circle1
+{
+    /* background-color: gray; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:  hsl(183, 97%, 14%);
+
+}
+
+.buttonTwo
+{
+    color: hsl(183, 97%, 14%) ;
+}
+.card2
+{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0; ;
+}
+.circle2
+{
+    /* background-color: gray; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: hsl(179, 75%, 13%);
+
+}
+.buttonThree
+{
+    color: hsl(179, 100%, 13%);
+}
+/* .button2
+{
+    color: hsl(179, 100%, 13%) ;
+} */
